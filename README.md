@@ -27,4 +27,5 @@ Do sprawdzenia spójności grafu wykorzystano algorytm przeszukiwania grafu w g�
 1. Brute force
 2. Algorytm zachłanny
 3. Heurystyka
+
 Każdy z tych algorytmów daje rozwiązanie dopuszczalne, takie które jest zadowalające, jednak nie każde zawsze daje rozwiązanie optymalne.
