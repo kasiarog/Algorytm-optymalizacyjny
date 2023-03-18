@@ -22,6 +22,7 @@ będą zasadniczym narzędziem, którym należy się tutaj posłużyć. Implemen
 którą składają się węzły komunikacyjne, połączone są liniami komunikacyjnymi. Trasy komunikacyjne (krawędzie grafu) posiadają wagi, które reprezentują czasy potrzebne na dotarcie z danego węzła do innego (z wierzchołka A do wierzchołka B grafu). Węzłem komunikacyjnym jest wierzchołek grafu. Po przerobieniu wersji fabularnej problemu na bardziej matematyczną, celem projektu jest znalezienie największej liczby krawędzi, które można usunąć z grafu, pod określonymi warunkami. Tymi warunkami są:
 - najkrótsze ścieżki pomiędzy każdą parą wierzchołków w powstałym grafie, nie mogą być dłuższe niż 1, 5 długości odpowiadających im ścieżek w grafie wyjściowym
 - nowo powstały graf musi być spójny.
+
 Do sprawdzenia spójności grafu wykorzystano algorytm przeszukiwania grafu w głąb (DFS). Zastosowano odpowiednią funkcję, która wykorzystując ten algorytm może bezpośrednio odpowiedzieć na pytanie, czy graf jest spójny. Do wyznaczenia najkrótszych ścieżek przydatny był algorytm Dijkstry. W głównej części programu, która wprost badała liczbę możliwych do usunięcia krawędzi, zaimplementowane są 3 algorytmy:
 1. Brute force
 2. Algorytm zachłanny
