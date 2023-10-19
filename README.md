@@ -19,7 +19,7 @@ Program konkretnie mówi o tym, ile tras komunikacyjnych można jednocześnie re
 
 Rozwiązanie postawionego problemu opiera się głównie na teorii grafów. Grafy
 będą zasadniczym narzędziem, którym należy się tutaj posłużyć. Implementacja opiera się na pracy na grafach ważonych. Graf ważony jest reprezentacją mapy miasta, na
-którą składają się węzły komunikacyjne, połączone są liniami komunikacyjnymi. Trasy komunikacyjne (krawędzie grafu) posiadają wagi, które reprezentują czasy potrzebne na dotarcie z danego węzła do innego (z wierzchołka A do wierzchołka B grafu). Węzłem komunikacyjnym jest wierzchołek grafu. Po przerobieniu wersji fabularnej problemu na bardziej matematyczną, celem projektu jest znalezienie największej liczby krawędzi, które można usunąć z grafu, pod określonymi warunkami. Tymi warunkami są:
+którą składają się węzły komunikacyjne, połączone liniami komunikacyjnymi. Trasy komunikacyjne (krawędzie grafu) posiadają wagi, które reprezentują czasy potrzebne na dotarcie z danego węzła do innego (z wierzchołka A do wierzchołka B grafu). Węzłem komunikacyjnym jest wierzchołek grafu. Po przerobieniu wersji fabularnej problemu na bardziej matematyczną, celem projektu jest znalezienie największej liczby krawędzi, które można usunąć z grafu, pod określonymi warunkami. Tymi warunkami są:
 - najkrótsze ścieżki pomiędzy każdą parą wierzchołków w powstałym grafie, nie mogą być dłuższe niż 1, 5 długości odpowiadających im ścieżek w grafie wyjściowym
 - nowo powstały graf musi być spójny.
 
