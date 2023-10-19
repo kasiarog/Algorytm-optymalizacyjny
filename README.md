@@ -1,5 +1,5 @@
 # Algorytm wykluczający optymalną ilość dróg komunikacyjych
-********Projekt z przedmiotu Optymalizacja Kombinatoryczna********
+********Optymalizacja Kombinatoryczna********
 
 
 ******1. Cel projektu******
