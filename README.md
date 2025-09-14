@@ -1,4 +1,4 @@
-# Algorytm wykluczający jednocześnie optymalną ilość dróg komunikacyjych
+# Algorytm wykluczający jednocześnie optymalną ilość dróg komunikacyjnych
 ********Optymalizacja Kombinatoryczna********
 
 
